@@ -1,0 +1,7 @@
+organization=solgalain94-github
+projectKey=Calculator:Calculator
+serverUrl=https://sonarcloud.io
+serverVersion=6.6.0.30224
+dashboardUrl=https://sonarcloud.io/dashboard/index/Calculator:Calculator
+ceTaskId=AV6RbmQeUw7FOf-cn9Nw
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AV6RbmQeUw7FOf-cn9Nw
