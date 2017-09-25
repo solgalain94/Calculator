@@ -14,7 +14,7 @@ import javax.swing.border.EmptyBorder;
 
 public class Calculadora extends JFrame {
 
-	/** numero tecleado */
+	/** numero tecleado //*/ 
 	JTextField pantalla;
 
 	/** guarda el resultado de la operacion anterior o el número tecleado */
