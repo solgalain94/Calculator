@@ -17,7 +17,7 @@ public class Calculadora extends JFrame {
 	/** numero tecleado //*/ 
 	JTextField pantalla;
 
-	/** guarda el resultado de la operacion anterior o el número tecleado */
+	/** guarda el resultado de la operacion anterior, o el número tecleado */
 	double resultado;
 
 	/** para guardar la operaccion a realizar */
