@@ -20,7 +20,7 @@ public class Calculadora extends JFrame {
 	/** guarda el resultado de la operacion anterior o el número tecleado */
 	double resultado;
 
-	/** para guardar la operacion a realizar */
+	/** para guardar la operaccion a realizar */
 	String operacion;
 
 	/** Los paneles donde colocaremos los botones */
