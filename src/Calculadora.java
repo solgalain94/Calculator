@@ -19,9 +19,18 @@ public class Calculadora extends JFrame {
 
 	/** guarda el resultado de la operacion anterior, o el número tecleado */
 	double resultado;
+	double result;
+	double result1;
+	double result2;
+	double resultado1;
+	double resultado2;
 
 	/** para guardar la operaccion a realizar */
 	String operacion;
+	String operacion2;
+	String operacion3;
+	String operacion4;
+	String operacion5;String operacion6;String operacion7;
 
 	/** Los paneles donde colocaremos los botones */
 	JPanel panelNumeros;
@@ -151,7 +160,7 @@ public class Calculadora extends JFrame {
 			nuevaOperacion = true;
 		} else {
 			operacion = tecla;
-			if ((resultado > 0) && !nuevaOperacion) {
+			if ((resultado > 0) && (!nuevaOperacion)) {
 				calcularResultado();
 			} else {
 				resultado = new Double(pantalla.getText());
@@ -160,6 +169,178 @@ public class Calculadora extends JFrame {
 
 		nuevaOperacion = true;
 	}
+	private void resultObtenido(String a){
+		  if (a.equals(0)){
+			  String variable="0";
+		  }
+		  else if (a.equals(1)){
+			  String variable="1";
+			  }
+			  
+		  else if(a.equals(2)){
+			  String variable="2";
+		  }
+		  else if(a.equals(3)){
+			  String variable="3";
+		  }
+		  else if(a.equals(4)){
+			  String variable="4";
+		  }
+		  else if(a.equals(5)){
+			  String variable="5";
+		  }
+		  else if(a.equals(6)){
+			  String variable="6";
+		  }
+		  else if(a.equals(7)){
+			  String variable="7";
+		  }
+		  else if(a.equals(8)){
+			  String variable="8";
+		  }
+		  else if(a.equals(9)){
+			  String variable="9";
+		  }
+		  else if(a.equals(10)){
+			  String variable="10";
+		  }
+		  else if(a.equals(11)){
+			  String variable="11";
+		  }
+		  else if(a.equals(12)){
+			  String variable="12";
+		  }
+				  
+		}
+	private void resultadoObtenido(String a){
+	  if (a.equals(0)){
+		  String variable="0";
+	  }
+	  else if (a.equals(1)){
+			  String variable="1";
+		  }
+		  
+	  else if(a.equals(2)){
+		  String variable="2";
+	  }
+	  else if(a.equals(3)){
+		  String variable="3";
+	  }
+	  else if(a.equals(4)){
+		  String variable="4";
+	  }
+	  else if(a.equals(5)){
+		  String variable="5";
+	  }
+	  else if(a.equals(6)){
+		  String variable="6";
+	  }
+	  else if(a.equals(7)){
+		  String variable="7";
+	  }
+	  else if(a.equals(8)){
+		  String variable="8";
+	  }
+	  else if(a.equals(9)){
+		  String variable="9";
+	  }
+	  else if(a.equals(10)){
+		  String variable="10";
+	  }
+	  else if(a.equals(11)){
+		  String variable="11";
+	  }
+	  else if(a.equals(12)){
+		  String variable="12";
+	  }
+			  
+	}
+	private void resultObtenido3(String a){
+		  if (a.equals(0)){
+			  String variable="0";
+		  }
+		  else if (a.equals(1)){
+				  String variable="1";
+			  }
+			  
+		  else if(a.equals(2)){
+			  String variable="2";
+		  }
+		  else if(a.equals(3)){
+			  String variable="3";
+		  }
+		  else if(a.equals(4)){
+			  String variable="4";
+		  }
+		  else if(a.equals(5)){
+			  String variable="5";
+		  }
+		  else if(a.equals(6)){
+			  String variable="6";
+		  }
+		  else if(a.equals(7)){
+			  String variable="7";
+		  }
+		  else if(a.equals(8)){
+			  String variable="8";
+		  }
+		  else if(a.equals(9)){
+			  String variable="9";
+		  }
+		  else if(a.equals(10)){
+			  String variable="10";
+		  }
+		  else if(a.equals(11)){
+			  String variable="11";
+		  }
+		  else if(a.equals(12)){
+			  String variable="12";
+		  }
+				  
+		}
+	private void resultObtenido2(String a){
+		  if (a.equals(0)){
+			  String variable="0";
+		  }
+		  else if (a.equals(1)){
+				  String variable="1";
+			  }
+			  
+		  else if(a.equals(2)){
+			  String variable="2";
+		  }
+		  else if(a.equals(3)){
+			  String variable="3";
+		  }
+		  else if(a.equals(4)){
+			  String variable="4";
+		  }
+		  else if(a.equals(5)){
+			  String variable="5";
+		  }
+		  else if(a.equals(6)){
+			  String variable="6";
+		  }
+		  else if(a.equals(7)){
+			  String variable="7";
+		  }
+		  else if(a.equals(8)){
+			  String variable="8";
+		  }
+		  else if(a.equals(9)){
+			  String variable="9";
+		  }
+		  else if(a.equals(10)){
+			  String variable="10";
+		  }
+		  else if(a.equals(11)){
+			  String variable="11";
+		  }
+		  else if(a.equals(12)){
+			  String variable="12";
+		  }
+				  
+		}
 
 	/**
 	 * Calcula el resultado y lo muestra por pantalla
@@ -179,3 +360,4 @@ public class Calculadora extends JFrame {
 		operacion = "";
 	}
 }
+
